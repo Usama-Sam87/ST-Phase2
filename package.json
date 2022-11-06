@@ -1,0 +1,22 @@
+{
+  "name": "st-phase2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/cucumber-js features/test.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.7.0",
+    "selenium-webdriver": "^4.6.0"
+  },
+  "devDependencies": {
+    "@nightwatch/selenium-server": "^4.5.0",
+    "chai": "^4.3.6",
+    "chromedriver": "^107.0.3",
+    "nightwatch": "^2.4.2"
+  }
+}
